@@ -1,9 +1,9 @@
-let currentServer = 'https://raw.githubusercontent.com/johirryhan087/iptv_playlists/refs/heads/main/https_playlist.m3u';
+let currentServer = 'https://kkxstream.github.io/M3u/M5.m3u';
 
 const servers = [
-  'https://raw.githubusercontent.com/manikiptv/freecatv.github.io/refs/heads/main/freecatv.m3u8',
-    'https://raw.githubusercontent.com/johirryhan087/iptv_playlists/refs/heads/main/https_playlist.m3u',
-    'https://m3u.ch/pl/eb7353c3bab76a0cb6f1cb26de322332_fee60ab67cca804d148f4ef3a25487a7.m3u',
+  'https://kkxstream.github.io/M3u/M5.m3u',
+    'https://kkxstream.github.io/M3u/M6.m3u',
+    'https://kkxstream.github.io/M3u/A2.m3u',
     'https://m3u.ch/pl/a52c2078d071bf675f72f127d0c6113c_456204d01661f9fcc506243abf05db83.m3u',
     'https://raw.githubusercontent.com/johirryhan087/iptv_playlists/refs/heads/main/http_playlist.m3u',
    'https//raw.githubusercontent.com/Jeshan-akand/Toffee-Channels-Link-Headers/main/toffee_OTT_Navigator.m3u',
