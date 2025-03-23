@@ -52,7 +52,7 @@ max-height: 400px;
 .channel-tabs {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-background: #f8f9fa;
+background: #33f240;
 border-bottom: 1px solid #eee;
 padding: 8px;
 gap: 8px;
@@ -70,7 +70,7 @@ border: none;
 background: none;
 cursor: pointer;
 border-radius: 8px;
-color: white;
+color: #0ac9f0;
 font-size: 14px;
 transition: all 0.3s ease;
 white-space: nowrap;
