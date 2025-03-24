@@ -1,4 +1,4 @@
-let currentServer = 'https://kkxstream.github.io/M3u/M5.m3u';
+let currentServer = 'https://kkxstream.github.io/M3u/M5tv.m3u';
 
 const servers = [
   'https://kkxstream.github.io/M3u/M5.m3u',
