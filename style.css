@@ -102,13 +102,13 @@ max-height: calc(400px - 100px);
 /* Channel Card */
 .channel-card {
 background: #a3a0a0;
-padding: 12px;
+padding: 8px;
 cursor: pointer;
 position: relative;
 transition: all 0.3s ease;
 display: flex;
 align-items: center;
-gap: 15px;
+gap: 12px;
 border-bottom: 1px solid #eee;
 }
 .channel-card:hover {
