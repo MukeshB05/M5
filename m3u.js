@@ -1,7 +1,7 @@
 let currentServer = 'https://kkxstream.github.io/M3u/M5tv.m3u';
 
 const servers = [
-  'https://kkxstream.github.io/M3u/M5.m3u',
+  'https://kkxstream.github.io/M3u/M5tv.m3u',
     'https://kkxstream.github.io/M3u/M6.m3u',
     'https://kkxstream.github.io/M3u/A2.m3u',
     'https://m3u.ch/pl/a52c2078d071bf675f72f127d0c6113c_456204d01661f9fcc506243abf05db83.m3u',
