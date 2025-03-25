@@ -166,7 +166,7 @@ background: #ffe6e6;
 /* Mobile View (Default) */
 @media (max-width: 766px) {
 .player-container {
-height: 28vh;
+height: 29vh;
 }
 .video-container {
 height: 100%;
@@ -181,7 +181,7 @@ max-height: calc(67vh - 100px);
 /* Mobile View (Default) */
 @media (max-width: 767px) {
 .player-container {
-height: 28vh;
+height: 29vh;
 }
 .video-container {
 height: 100%;
@@ -196,7 +196,7 @@ max-height: calc(67vh - 100px);
 /* Mobile View (Default) */
 @media (max-width: 768px) {
 .player-container {
-height: 28vh;
+height: 29vh;
 }
 .video-container {
 height: 100%;
