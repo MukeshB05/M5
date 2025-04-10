@@ -40,6 +40,10 @@
 <body>
 <!-- Main Content -->
 <div class='main-content'>
+<nav><img src="https://i.imgur.com/p5tTRB3.jpeg" height="50px" width="256px"><div style="position: absolute;margin-right: 0px;margin-left: 110px;background-color: #000000;color: white;border-bottom: 1px solid #000000;"><marquee direction='left' scrollamount='6' style='margin-top: 5px;margin-bottom: -20px;font-family: Raghu, Raleway, sans-serif;font-size: 20px;'>Current URL - https://kkxstreamlive.pages.dev | You are watching Kanyakumari Xstream LIVE - Malayalam | Tamil | Telugu | Kannada | Hindi | English Live TV Channels Online for Free.</marquee></div> </figure>
+</div>
+<div class="clock-container" class="clock" id="display" style="color:#ff00a5; font-size: 12px; display: flex; overflow-x: hidden; position: absolute; margin-right: 0px; margin-left: 100px; top: 8px; right: 3px; padding: -5"></div></nav>
+                        
 <div class='player-container'>
 <div class="watermark">@kkxstream</div>
 <div class='video-container' id='videoPlayer'></div>
@@ -284,6 +288,70 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 //]]>
 </script>
+
+<script>
+        function updateClock() {
+            var clockDisplay = document.getElementById("display");
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            // Convert to 12-hour format
+            var ampm = hours >= 12 ? "PM" : "AM";
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            // Format leading zeros
+            hours = leadingZero(hours);
+            minutes = leadingZero(minutes);
+            seconds = leadingZero(seconds);
+            // Display the time
+            var timeString = hours + ":" + minutes + ":" + seconds + " " + ampm;
+            clockDisplay.textContent = timeString;
+            // Update every second
+            setTimeout(updateClock, 1000);
+        }
+        function leadingZero(number) {
+            return number < 10 ? "0" + number : number;
+        }
+        // Start the clock
+        updateClock();
+    </script>
+
+    <script>
+        function updateClock() {
+            var clockDisplay = document.getElementById("display");
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+
+            // Convert to 12-hour format
+            var ampm = hours >= 12 ? "PM" : "AM";
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+
+            // Format leading zeros
+            hours = leadingZero(hours);
+            minutes = leadingZero(minutes);
+            seconds = leadingZero(seconds);
+
+            // Display the time
+            var timeString = hours + ":" + minutes + ":" + seconds + " " + ampm;
+            clockDisplay.textContent = timeString;
+
+            // Update every second
+            setTimeout(updateClock, 1000);
+        }
+
+        function leadingZero(number) {
+            return number < 10 ? "0" + number : number;
+        }
+
+        // Start the clock
+        updateClock();
+    </script>
+
+<script>function scroller(){var answer=window.confirm("Kanyakumari Xstream LIVE - Website Developed by MUKESH");if(answer){}else{}}window.addEventListener("load",scroller,false);</script>
 <!--script src='copy.js'></script-->
 </body>
 </html>
