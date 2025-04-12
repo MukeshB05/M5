@@ -42,9 +42,11 @@ object-fit:fill;
 width: 100%;
 position: relative;
 flex-shrink: 0;
+top: 0;
 }
 .video-container {
 width: 100%;
+top: 0;
 object-fit:fill;
 position: relative;
 background: #000;
