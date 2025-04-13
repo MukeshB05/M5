@@ -20,7 +20,7 @@ flex-direction: column;
 }
 .logo {
 color: rgb(159, 43, 104);
-height: 56px;
+height: 6px;
 position: relative;
 padding: 0 10px;
 font-size: clamp(1.5rem, 2.0vw, 4rem); 
