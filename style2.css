@@ -21,6 +21,7 @@ flex-direction: column;
 .nav {
     color: rgb(159, 43, 104);
     display: flex;
+    position: fixed;
     height: 56px;
     padding: 0px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
