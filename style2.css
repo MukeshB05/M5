@@ -18,17 +18,17 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 }
-nav {
+.nav {
     color: rgb(159, 43, 104);
     display: flex;
     height: 56px;
     padding: 0px;
     font-size: clamp(1.5rem, 2.0vw, 4rem); 
     background-color: rgb(0, 0, 0);
-    display: flex;
     justify-content: center;
     flex-direction: column;
     border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 0px;
 }
 /* Main Content */
 .main-content {
