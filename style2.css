@@ -18,7 +18,7 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 }
-.nav {
+.logo {
 color: rgb(159, 43, 104);
 height: 56px;
 position: relative;
